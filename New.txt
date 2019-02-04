@@ -1,0 +1,633 @@
+Script started on Monday 04 February 2019 04:09:52 PM IST
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ hids[K[Ksw[Ktory
+    1  grep -c
+    2  grep --help
+    3  clear
+    4  ls -ltr
+    5  ls
+    6  ls -lt
+    7  clear
+    8  ls ab* -d
+    9  ls -al
+   10  clear
+   11  who
+   12  whoami
+   13  who -a
+   14  password ask
+   15  passwd ask
+   16  clear
+   17  passwd ask
+   18  clear
+   19  usermod
+   20  clear
+   21  root
+   22  clear
+   23  ls -R
+   24  lsclear
+   25  clear
+   26  ls -al
+   27  clware
+   28  clear
+   29  cat > sample1
+   30  cat sample1
+   31  ls
+   32  ls -R
+   33  clear
+   34  rm sample1
+   35  ls
+   36  car > sample1
+   37  clear
+   38  cat > sample1
+   39  ls
+   40  ls -R
+   41  mv sample1/Documents
+   42  mv sample1 home/Documents
+   43  sudo mv sample1 home/Documents
+   44  ls
+   45  clear
+   46  mkdir FOSS
+   47  ls
+   48  mv sample1 /home/s4d1
+   49  sudo mv sample1 /home/s4d1
+   50  clear
+   51  mv sample1 test
+   52  ls
+   53  sudo mv test /home/s4d1
+   54  sudo mv test /home/FOSS
+   55  cd /home/s4d1
+   56  ls
+   57  cd home/s4d1/FOSS
+   58  cd /home/FOSS
+   59  cd FOSS
+   60  ls
+   61  ls-ltr
+   62  cd
+   63  cd FOSS
+   64  cat > test1
+   65  cat test1
+   66  cat > test2
+   67  cat test1 test2 > test
+   68  cat test
+   69  mkdir example
+   70  mv test /home/s4d1/FOSS
+   71  mv test /home/s4d1/FOSS/example
+   72  cd FOSS/example
+   73  cd  /home/s4d1/FOSS/example
+   74  rm test
+   75  ls
+   76  cd
+   77  cd FOSS
+   78  ls
+   79  rmdir example
+   80  cmp test1 test2
+   81  free -h
+   82  grep 'Thank' test2
+   83  ls
+   84  history
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat newfile1
+cat: newfile1: No such file or directory
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat newfile1.txt
+Script started on Monday 04 February 2019 03:49:23 PM IST
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls
+newfile1.txt  test
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls-ltr
+ls-ltr: command not found
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cd
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ cd f[KFOSS
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat > test1
+This is a sample
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat test1
+This is a sample
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat >tes[K[K[K test2
+Thank Yoi u
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat test1 test 2[K[K3[K2 > test
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat test
+This is a sample
+Thank You
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ mkdir s[Kexample
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ mv test1[K /home/s4d1/FOSS
+mv: 'test' and '/home/s4d1/FOSS/test' are the same file
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ mv test /home/s4d1/FOSS/example
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cd/[K Fo[KOSS/example
+bash: cd: FOSS/example: No such file or directory
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$  [Kcd FOSS/examplemv test /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P/home/s4d1/FOSS/example
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/s4d1/FOSS/example
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/s4d1/FOSS/example
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc /home/s4d1/FOSS/example
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd /home/s4d1/FOSS/example
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/s4d1/FOSS/example
+]0;s4d1@CC2-29: ~/FOSS/example[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS/example[00m$ rm test
+]0;s4d1@CC2-29: ~/FOSS/example[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS/example[00m$ ls
+]0;s4d1@CC2-29: ~/FOSS/example[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS/example[00m$ cd
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$  cd ?FOSS[K[K[K[K[K/FOSS
+bash: cd: /FOSS: No such file or directory
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ cd FOSS
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls
+[0m[01;34mexample[0m  newfile1.txt  test1  test2
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ rmdir example
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cmp test1 tewst[K[K[Kst2
+test1 test2 differ: byte 3, line 1
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ free -=h[K[K[K-h
+              total        used        free      shared  buff/cache   available
+Mem:           3.8G        1.5G        878M        363M        1.4G        1.6G
+Swap:           18G          0B         18G
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ grep 'Thank' test2
+\[01;31m[KThank[m[K You
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ \[Kexit
+
+Script done on Monday 04 February 2019 04:02:25 PM IST
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat newfile1.txt newfile2 ?[K> newfile.txt
+cat: newfile2: No such file or directory
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat newfile1.txt newfile2.txt>[K > newfile.txt
+']0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ '[Kcat newfile.txt
+Script started on Monday 04 February 2019 03:49:23 PM IST
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls
+newfile1.txt  test
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls-ltr
+ls-ltr: command not found
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cd
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ cd f[KFOSS
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat > test1
+This is a sample
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat test1
+This is a sample
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat >tes[K[K[K test2
+Thank Yoi u
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat test1 test 2[K[K3[K2 > test
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat test
+This is a sample
+Thank You
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ mkdir s[Kexample
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ mv test1[K /home/s4d1/FOSS
+mv: 'test' and '/home/s4d1/FOSS/test' are the same file
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ mv test /home/s4d1/FOSS/example
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cd/[K Fo[KOSS/example
+bash: cd: FOSS/example: No such file or directory
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$  [Kcd FOSS/examplemv test /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P/home/s4d1/FOSS/example
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/s4d1/FOSS/example
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/s4d1/FOSS/example
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc /home/s4d1/FOSS/example
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd /home/s4d1/FOSS/example
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/s4d1/FOSS/example
+]0;s4d1@CC2-29: ~/FOSS/example[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS/example[00m$ rm test
+]0;s4d1@CC2-29: ~/FOSS/example[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS/example[00m$ ls
+]0;s4d1@CC2-29: ~/FOSS/example[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS/example[00m$ cd
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$  cd ?FOSS[K[K[K[K[K/FOSS
+bash: cd: /FOSS: No such file or directory
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ cd FOSS
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls
+[0m[01;34mexample[0m  newfile1.txt  test1  test2
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ rmdir example
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cmp test1 tewst[K[K[Kst2
+test1 test2 differ: byte 3, line 1
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ free -=h[K[K[K-h
+              total        used        free      shared  buff/cache   available
+Mem:           3.8G        1.5G        878M        363M        1.4G        1.6G
+Swap:           18G          0B         18G
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ grep 'Thank' test2
+\[01;31m[KThank[m[K You
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ \[Kexit
+
+Script done on Monday 04 February 2019 04:02:25 PM IST
+Script started on Monday 04 February 2019 04:09:52 PM IST
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ hids[K[Ksw[Ktory
+
+    1  grep -c
+
+    2  grep --help
+
+    3  clear
+
+    4  ls -ltr
+
+    5  ls
+
+    6  ls -lt
+
+    7  clear
+
+    8  ls ab* -d
+
+    9  ls -al
+
+   10  clear
+
+   11  who
+
+   12  whoami
+
+   13  who -a
+
+   14  password ask
+
+   15  passwd ask
+
+   16  clear
+
+   17  passwd ask
+
+   18  clear
+
+   19  usermod
+
+   20  clear
+
+   21  root
+
+   22  clear
+
+   23  ls -R
+
+   24  lsclear
+
+   25  clear
+
+   26  ls -al
+
+   27  clware
+
+   28  clear
+
+   29  cat > sample1
+
+   30  cat sample1
+
+   31  ls
+
+   32  ls -R
+
+   33  clear
+
+   34  rm sample1
+
+   35  ls
+
+   36  car > sample1
+
+   37  clear
+
+   38  cat > sample1
+
+   39  ls
+
+   40  ls -R
+
+   41  mv sample1/Documents
+
+   42  mv sample1 home/Documents
+
+   43  sudo mv sample1 home/Documents
+
+   44  ls
+
+   45  clear
+
+   46  mkdir FOSS
+
+   47  ls
+
+   48  mv sample1 /home/s4d1
+
+   49  sudo mv sample1 /home/s4d1
+
+   50  clear
+
+   51  mv sample1 test
+
+   52  ls
+
+   53  sudo mv test /home/s4d1
+
+   54  sudo mv test /home/FOSS
+
+   55  cd /home/s4d1
+
+   56  ls
+
+   57  cd home/s4d1/FOSS
+
+   58  cd /home/FOSS
+
+   59  cd FOSS
+
+   60  ls
+
+   61  ls-ltr
+
+   62  cd
+
+   63  cd FOSS
+
+   64  cat > test1
+
+   65  cat test1
+
+   66  cat > test2
+
+   67  cat test1 test2 > test
+
+   68  cat test
+
+   69  mkdir example
+
+   70  mv test /home/s4d1/FOSS
+
+   71  mv test /home/s4d1/FOSS/example
+
+   72  cd FOSS/example
+
+   73  cd  /home/s4d1/FOSS/example
+
+   74  rm test
+
+   75  ls
+
+   76  cd
+
+   77  cd FOSS
+
+   78  ls
+
+   79  rmdir example
+
+   80  cmp test1 test2
+
+   81  free -h
+
+   82  grep 'Thank' test2
+
+   83  ls
+
+   84  history
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat newfile1
+
+cat: newfile1: No such file or directory
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat newfile1.txt
+
+Script started on Monday 04 February 2019 03:49:23 PM IST
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls
+
+newfile1.txt  test
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls-ltr
+
+ls-ltr: command not found
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cd
+
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ cd f[KFOSS
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat > test1
+
+This is a sample
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat test1
+
+This is a sample
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat >tes[K[K[K test2
+
+Thank Yoi u
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat test1 test 2[K[K3[K2 > test
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat test
+
+This is a sample
+
+Thank You
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ mkdir s[Kexample
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ mv test1[K /home/s4d1/FOSS
+
+mv: 'test' and '/home/s4d1/FOSS/test' are the same file
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ mv test /home/s4d1/FOSS/example
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cd/[K Fo[KOSS/example
+
+bash: cd: FOSS/example: No such file or directory
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$  [Kcd FOSS/examplemv test /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P /home/s4d1/FOSS/example[1P/home/s4d1/FOSS/example
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/s4d1/FOSS/example
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/s4d1/FOSS/example
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc /home/s4d1/FOSS/example
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd /hom]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cd[K[Kexit
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ifconfig
+enp2s0    Link encap:Ethernet  HWaddr 38:d5:47:b8:da:97  
+          inet addr:192.168.0.134  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::749c:6754:5998:a1ea/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1198835 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:43662 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:141463043 (141.4 MB)  TX bytes:7562270 (7.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:44174 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:44174 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2937820 (2.9 MB)  TX bytes:2937820 (2.9 MB)
+
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ passwd s4d1
+Changing password for s4d1.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ passwd s4d1
+Changing password for s4d1.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ who
+s4d1     tty7         2019-02-04 14:54 (:0)
+cec      tty8         2019-02-04 15:09 (:1)
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ wht[Katis ls
+ls (1)               - list directory contents
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ whoami
+s4d1
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls -lt
+total 16596
+-rw-rw-r-- 1 s4d1 s4d1 16957440 Feb  4 17:01 new.txt
+-rw-rw-r-- 1 s4d1 s4d1    14072 Feb  4 16:12 newfile2.txt
+-rw-rw-r-- 1 s4d1 s4d1     7764 Feb  4 16:11 newfile.txt
+-rw-rw-r-- 1 s4d1 s4d1     3668 Feb  4 16:08 newfile1.txt
+-rw-rw-r-- 1 s4d1 s4d1       10 Feb  4 15:51 test2
+-rw-rw-r-- 1 s4d1 s4d1       17 Feb  4 15:50 test1
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls -ltr
+total 16600
+-rw-rw-r-- 1 s4d1 s4d1       17 Feb  4 15:50 test1
+-rw-rw-r-- 1 s4d1 s4d1       10 Feb  4 15:51 test2
+-rw-rw-r-- 1 s4d1 s4d1     3668 Feb  4 16:08 newfile1.txt
+-rw-rw-r-- 1 s4d1 s4d1     7764 Feb  4 16:11 newfile.txt
+-rw-rw-r-- 1 s4d1 s4d1    14072 Feb  4 16:12 newfile2.txt
+-rw-rw-r-- 1 s4d1 s4d1 16961536 Feb  4 17:04 new.txt
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ man ls-al -al
+[?1049h[?1h=
+LS(1)                            User Commands                           LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about  the FILEs (the current directory by default).[m
+       Sort entries alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m  is  speci‐[m
+       fied.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049lNo manual entry for -al
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ ls-al
+ls-al: command not found
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ man cp
+[?1049h[?1h=
+CP(1)                            User Commands                           CP(1)[m
+[m
+[1mNAME[0m[m
+       cp - copy files and directories[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcp[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
+       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
+       [1mcp[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-a[0m, [1m--archive[0m[m
+              same as [1m-dR[0m [1m--preserve[0m=[4mall[24m[m
+[m
+       [1m--attributes-only[0m[m
+              don't copy the file data, just the attributes[m
+[m
+       [1m--backup[0m[=[4mCONTROL[24m][m
+[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ echo "Hekko"[K[K[K[Kllo"
+Hello
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ man id
+[?1049h[?1h=
+ID(1)                            User Commands                           ID(1)[m
+[m
+[1mNAME[0m[m
+       id - print real and effective user and group IDs[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mid[0m [[4mOPTION[24m]... [[4mUSER[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       Print  user and group information for the specified USER, or (when USER[m
+       omitted) for the current user.[m
+[m
+       [1m-a[0m     ignore, for compatibility with other versions[m
+[m
+       [1m-Z[0m, [1m--context[0m[m
+              print only the security context of the process[m
+[m
+       [1m-g[0m, [1m--group[0m[m
+              print only the effective group ID[m
+[m
+       [1m-G[0m, [1m--groups[0m[m
+              print all group IDs[m
+[m
+[7m Manual page id(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ id
+uid=1013(s4d1) gid=1013(s4d1) groups=1013(s4d1)
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ pdf to[K[K[Ktotext commands.pdf -layout
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat -n testr[K1
+     1	This is a sample
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat -n test
+cat: test: No such file or directory
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ cat -n test2
+     1	Thank You
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ eject
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ free
+              total        used        free      shared  buff/cache   available
+Mem:        3934468     1958120      420188      404316     1556160     1284616
+Swap:      19530748           0    19530748
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ man du
+[?1049h[?1h=
+DU(1)                            User Commands                           DU(1)[m
+[m
+[1mNAME[0m[m
+       du - estimate file space usage[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdu[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+       [1mdu[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Summarize disk usage of the set of FILEs, recursively for directories.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-0[0m, [1m--null[0m[m
+              end each output line with NUL, not newline[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              write counts for all files, not just directories[m
+[m
+       [1m--apparent-size[0m[m
+              print apparent sizes,  rather  than  disk  usage;  although  the[m
+[7m Manual page du(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ du
+40	.
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ man dir
+[?1049h[?1h=
+DIR(1)                           User Commands                          DIR(1)[m
+[m
+[1mNAME[0m[m
+       dir - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdir[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about  the FILEs (the current directory by default).[m
+       Sort entries alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m  is  speci‐[m
+       fied.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+[7m Manual page dir(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ dir
+newfile1.txt  newfile2.txt  newfile.txt  new.txt  test1  test2
+]0;s4d1@CC2-29: ~/FOSS[01;32ms4d1@CC2-29[00m:[01;34m~/FOSS[00m$ exit
+
+Script done on Monday 04 February 2019 04:12:17 PM IST
