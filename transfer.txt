@@ -1,153 +1,0 @@
-Script started on Monday 25 March 2019 11:26:34 AM IST
-]0;s4d1@ceclab2-Veriton-Series: ~/FOSSs4d1@ceclab2-Veriton-Series:~/FOSS$ ssh cs17d27@192.168.0.2[K30
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d27@192.168.0.30's password: 
-Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
-
- * Website:  http://elementary.io/
-
-278 packages can be updated.
-0 updates are security updates.
-
-Last login: Mon Mar 25 11:01:51 2019 from 192.168.0.224
-$ ls
-examples.desktop  result1.txt  results.txt  task1.sh  test
-$ cs test
--sh: 2: cs: not found
-$ cd test
-$ ls
-sample.txt  test1.txt
-$ cat > file1.txt
-This is a sample file
-$ ls
-file1.txt  sample.txt  test1.txt
-$ cat file1.txt
-This is a sample file
-$ rm file.txt
-rm: cannot remove 'file.txt': No such file or directory
-$ rm file1.txt
-$ cd ..
-$ ls
-examples.desktop  result1.txt  results.txt  task1.sh  test
-$ mv taks1.sh test
-mv: cannot stat 'taks1.sh': No such file or directory
-$ ls
-examples.desktop  result1.txt  results.txt  task1.sh  test
-$ mv result1.txt test
-$ cd test
-$ ls
-result1.txt  sample.txt  test1.txt
-$ cat sample.txt
-this is a test file for ssh commands
-$ rm sample.txt
-$ ls
-result1.txt  test1.txt
-$ cd..   ..
-$ ls
-examples.desktop  results.txt  task1.sh  test
-$ cp -i task.sh   1.sh test
-$ cd test 
-$ ls
-result1.txt  task1.sh  test1.txt
-$ cd ..
-$ ls
-examples.desktop  results.txt  task1.sh  test
-$ rm task.sh
-rm: cannot remove 'task.sh': No such file or directory
-$ rm task1.sh
-$ bye
--sh: 29: bye: not found
-$ exit
-Connection to 192.168.0.30 closed.
-]0;s4d1@ceclab2-Veriton-Series: ~/FOSSs4d1@ceclab2-Veriton-Series:~/FOSS$ ssh cs17d27@192.168.0.30cp cs17d27@192.168.0.30:/home/cs17d27/results.txt2[K30[1Pcec17d27@192.168.0.2[15Pifconfigscpcec17d27@192.168.0.2 cs17d27@192.168.0.30[1P230:/home/cs17d27/results.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ks4d1@192.168.0.224:/homw[Ke/s4d1/task1.sh /home [K/cs17d27
-The authenticity of host '192.168.0.224 (192.168.0.224)' can't be established.
-ECDSA key fingerprint is 9a:0f:7a:53:17:dd:36:e5:e2:53:6c:d4:13:01:fa:57.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '192.168.0.224' (ECDSA) to the list of known hosts.
-s4d1@192.168.0.224's password: 
-/home/cs17d27: Permission denied
-]0;s4d1@ceclab2-Veriton-Series: ~/FOSSs4d1@ceclab2-Veriton-Series:~/FOSS$ scp s4d1@192.168.0.224:/home/s4d1/task1.sh /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Psh cs17d27@192.168.0.30cp cs17d27@192.168.0.30:/home/cs17d27/results.txt
-usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
-           [-l limit] [-o ssh_option] [-P port] [-S program]
-           [[user@]host1:]file1 ... [[user@]host2:]file2
-]0;s4d1@ceclab2-Veriton-Series: ~/FOSSs4d1@ceclab2-Veriton-Series:~/FOSS$ scp cs17d27@192.168.0.30:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs4d1@192.168.0.224:/home/s4d1/task1.sh /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Psh cs17d27@192.168.0.30cp s4d1@192.168.0.224:/home/s4d1/task1.sh /home/cs17d27[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdbatch.txt /home/cs17d27
-s4d1@192.168.0.224's password: 
-/home/cs17d27: Permission denied
-]0;s4d1@ceclab2-Veriton-Series: ~/FOSSs4d1@ceclab2-Veriton-Series:~/FOSS$ scp s4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcs17d27@192.168.0.30:/home/cs17d27/results.txt[C /home [K/s4d1
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d27@192.168.0.30's password: 
-results.txt                                                                                                     0%    0     0.0KB/s   --:-- ETAresults.txt                                                                                                   100%   44KB  43.6KB/s   00:00    
-]0;s4d1@ceclab2-Veriton-Series: ~/FOSSs4d1@ceclab2-Veriton-Series:~/FOSS$ scp cs17d27@192.168.0.30:/home/cs17d27/results.txt /home/s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ps4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcs17d27@192.168.0.30:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d27@192.168.0.30:/home/cs17d27/results.txt /home/s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp cs17d27@192.168.0.30:/home/cs17d27/results.txt /home/s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ps4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcs17d27@192.168.0.30:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27
-s4d1@192.168.0.224's password: 
-/home/cs17d27: Permission denied
-]0;s4d1@ceclab2-Veriton-Series: ~/FOSSs4d1@ceclab2-Veriton-Series:~/FOSS$ ls[K[Kscp s4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d27@192.168.0.30:/home/cs17d27/results.txt /home/s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ps4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcs17d27@192.168.0.30:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs4d1@192.168.0.224:/home/s4d1/task1.sh /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Psh cs17d27@192.168.0.30cp cs17d27@192.168.0.30:/home/cs17d27/results.txt2[K30[1Pcec17d27@192.168.0.2[15Pifconfigsftp cec17d27@192.168.0.30man sftp[K[1Pftp[2Pclearifconfig etho 192.168.0.90 netmask 255.255.255.0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksudo ifconfig[3P./task1.shchmod u+x task1.sh[8P./task1.shchmod u+x task1.sh[8P./task1.shchmod u+x task1.sh[8P./task1.shchmod u+x task1.sh[11Pd FOSShmod u+x task1.sh[8P./task1.shchmod u+x task1.sh[8P./task1.shchmod u+x task1.sh[8P./task1.shchmod u+x task1.sh[8P./task1.shsudo ifconfig[5Pifconfigfconfig etho 192.168.0.90 netmask 255.255.255.0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@i[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kman ftpsftpsftp cec17d27@192.168.0.30ifconfig[Kscpcec17d27@192.168.0.2 cs17d27@192.168.0.30[1P230:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Psh cs17d27@192.168.0.30cp s4d1@192.168.0.224:/home/s4d1/task1.sh /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcs17d27@192.168.0.30:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d27@192.168.0.30:/home/cs17d27/results.txt /home/s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ps4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp s4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d27@192.168.0.30:/home/cs17d27/results.txt /home/s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ps4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcs17d27@192.168.0.30:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs4d1@192.168.0.224:/home/s4d1/task1.sh /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcs17d27@192.168.0.30:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d27@192.168.0.30:/home/cs17d27/results.txt /home/s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ps4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp s4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp s4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d27@192.168.0.30:/home/cs17d27/results.txt /home/s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ps4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcs17d27@192.168.0.30:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs4d1@192.168.0.224:/home/s4d1/task1.sh /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Psh cs17d27@192.168.0.30cp cs17d27@192.168.0.30:/home/cs17d27/results.txt2[K30[1Pcec17d27@192.168.0.2 cs17d27@192.168.0.30[1P230:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Psh cs17d27@192.168.0.30cp s4d1@192.168.0.224:/home/s4d1/task1.sh /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcs17d27@192.168.0.30:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs4d1@192.168.0.224:/home/s4d1/task1.sh /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Psh cs17d27@192.168.0.30cp cs17d27@192.168.0.30:/home/cs17d27/results.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Psh cs17d27@192.168.0.30
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d27@192.168.0.30's password: 
-Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
-
- * Website:  http://elementary.io/
-
-278 packages can be updated.
-0 updates are security updates.
-
-Last login: Mon Mar 25 11:21:56 2019 from 192.168.0.224
-$ ls
-examples.desktop  results.txt  test
-$ exit
-Connection to 192.168.0.30 closed.
-]0;s4d1@ceclab2-Veriton-Series: ~/FOSSs4d1@ceclab2-Veriton-Series:~/FOSS$ ssh cs17d27@192.168.0.30cp s4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27
-s4d1@192.168.0.224's password: 
-/home/cs17d27: Permission denied
-]0;s4d1@ceclab2-Veriton-Series: ~/FOSSs4d1@ceclab2-Veriton-Series:~/FOSS$ d[Kcd ..
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cd ..scp s4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27
-s4d1@192.168.0.224's password: 
-/home/cs17d27: Permission denied
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp dbatch.txt s4d1@192.168.0.30[K[K224 :/home/cs17d27
-:/home/cs17d27: No such file or directory
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp dbatch.txt s4d1@192.168.0.224 :/home/cs17d27[1P:/home/cs17d27[1P:/home/cs17d27[1P:/home/cs17d27[1P:/home/cs17d273:/home/cs17d270:/home/cs17d27[1P@192.168.0.30:/home/cs17d27[1P@192.168.0.30:/home/cs17d27[1P@192.168.0.30:/home/cs17d27[1P@192.168.0.30:/home/cs17d27c@192.168.0.30:/home/cs17d27s@192.168.0.30:/home/cs17d271@192.168.0.30:/home/cs17d277@192.168.0.30:/home/cs17d27d@192.168.0.30:/home/cs17d272@192.168.0.30:/home/cs17d277@192.168.0.30:/home/cs17d27
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d27@192.168.0.30's password: 
-dbatch.txt                                                                                                      0%    0     0.0KB/s   --:-- ETAdbatch.txt                                                                                                    100% 3060     3.0KB/s   00:00    
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ ls
-aaaaaa.txt  abc.txt  a.txt                       ceccs17d08.25.02.19.txt  dbatch.txt~  examples.desktop  [0m[01;34mPublic[0m       result.txt  [01;34mVideos[0m
-aaaa.txt    ab.txt   ceccs17d03.11.03.19.p2.txt  ceccs17d08.txt           [01;34mDesktop[0m      [01;34mFOSS[0m              result1.txt  s4d.txt
-aab.txt     acc.txt  ceccs17d08.04.02.19.txt     cgpa.txt                 [01;34mDocuments[0m    [01;34mMusic[0m             result2.txt  [01;32mtask1.sh[0m
-ab          ac.txt   ceccs17d08.11.02.19.txt     dbatch.txt               [01;34mDownloads[0m    [01;34mPictures[0m          results.txt  [01;34mTemplates[0m
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ lsscp dbatch.txt cs17d27@192.168.0.30:/home/cs17d27[1Ps4d1@192.168.0.224 :/home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kscp s4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Psh cs17d27@192.168.0.30cp s4d1@192.168.0.224:/home/s4d1/dbatch.txt /home/cs17d27[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Psh cs17d27@192.168.0.30
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d27@192.168.0.30's password: 
-Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
-
- * Website:  http://elementary.io/
-
-278 packages can be updated.
-0 updates are security updates.
-
-Last login: Mon Mar 25 11:43:53 2019 from 192.168.0.224
-$ ls
-dbatch.txt  examples.desktop  results.txt  test
-$ exit
-Connection to 192.168.0.30 closed.
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ exit
-
-Script done on Monday 25 March 2019 11:57:58 AM IST
