@@ -141,7 +141,8 @@ ping: sendmsg: Network is unreachable
 ping: sendmsg: Network is unreachable
 ^Z
 [1]+  Stopped                 ping 192.168.0.98
-]0;cec@CLAB2: ~cec@CLAB2:~$ ping 192.168.0.98[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psudo ifconfig 
+]0;cec@CLAB2: ~cec@CLAB2:~$ ping 192.168.0.98
+[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psudo ifconfig 
 eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
           inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
@@ -159,8 +160,10 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:0 
           RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
 
-]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig ping 192.168.0.98[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0
-]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig ping 192.168.0.98
+[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
 eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
           inet addr:192.168.0.90  Bcast:192.168.0.255  Mask:255.255.255.0
           inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
@@ -179,7 +182,8 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:0 
           RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
 
-]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kping 192.168.0.98
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kping 192.168.0.98
 PING 192.168.0.98 (192.168.0.98) 56(84) bytes of data.
 64 bytes from 192.168.0.98: icmp_seq=1 ttl=64 time=0.686 ms
 64 bytes from 192.168.0.98: icmp_seq=2 ttl=64 time=0.334 ms
@@ -188,7 +192,10 @@ PING 192.168.0.98 (192.168.0.98) 56(84) bytes of data.
 [2]+  Stopped                 ping 192.168.0.98
 ]0;cec@CLAB2: ~cec@CLAB2:~$ -sudo ifdown eth[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo id=fdown eth0[1P[1P
 ifdown: interface eth0 not configured
-]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifdown eth0[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.98[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psudo ifdown eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[Kifg[Kconfig
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifdown eth0
+[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.98
+[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psudo ifdown eth0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[Kifg[Kconfig
 eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
           inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
@@ -227,7 +234,10 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:0 
           RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
 
-]0;cec@CLAB2: ~cec@CLAB2:~$ ifconfigsudo ifdown eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pifconfigsudo ifdown eth0[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.98[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0
+]0;cec@CLAB2: ~cec@CLAB2:~$ ifconfigsudo ifdown eth0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pifconfigsudo ifdown eth0
+[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.98
+[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0
 ]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig
 eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
           inet addr:192.168.0.90  Bcast:192.168.0.255  Mask:255.255.255.0
@@ -248,7 +258,8 @@ lo        Link encap:Local Loopback
           RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
 
 ]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0[C[1P[1P[1@6[1@9
-]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
 eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
           inet addr:192.168.0.69  Bcast:192.168.0.255  Mask:255.255.255.0
           inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
@@ -267,7 +278,9 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:0 
           RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
 
-]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifup re[K[K[K[K[K[K[K[K[K[K[K[Ksudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K eth0 192.168.0.90 netmask 255.255.255.0[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksudo ifdown eth0[1P eth0[1P eth0[1P eth0[1P eth0u eth0p eth0
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifup re[K[K[K[K[K[K[K[K[K[K[K[Ksudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K eth0 192.168.0.90 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksudo ifdown eth0[1P eth0[1P eth0[1P eth0[1P eth0u eth0p eth0
 Ignoring unknown interface eth0=eth0.
 ]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifup eth0[K0
 Ignoring unknown interface eth0=eth0.
@@ -303,8 +316,10 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:0 
           RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
 
-]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 down[K eth0 192.168.0.69 netmask 255.255.255.0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cup[K192.168.0.69 netmask 255.255.255.0
-]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 down[K eth0 192.168.0.69 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cup[K192.168.0.69 netmask 255.255.255.0
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
 eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
           inet addr:192.168.0.69  Bcast:192.168.0.255  Mask:255.255.255.0
           UP BROADCAST MULTICAST  MTU:1500  Metric:1
@@ -322,7 +337,8 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:0 
           RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
 
-]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K eth0 down[K eth0 down
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K eth0 down[K eth0 down
 ]0;cec@CLAB2: ~cec@CLAB2:~$ exit
 exit
 There are stopped jobs.
