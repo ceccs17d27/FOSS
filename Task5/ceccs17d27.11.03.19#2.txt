@@ -8,12 +8,16 @@ cec17d27@192.168.0.30: command not found
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cec17d27@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cec17d27@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cec17d27@192.168.0.30's password: 
-Permission denied (publickey,password).
-Couldn't read packet: Connection reset by peer
+Permission denied (publickey,password).
+
+Couldn't read packet: Connection reset by peer
+
 ]0;s4d1@ceclab2-Veriton-Series: ~/FOSSs4d1@ceclab2-Veriton-Series:~/FOSS$ sftp cs17d27@192.168.0.30-[K
 .
               |
@@ -24,12 +28,16 @@ cs17d27@192.168.0.30's password:
 Connected to 192.168.0.30.
 sftp> put results.txt
 Uploading results.txt to /home/cs17d27/results.txt
-results.txt                                     0%    0     0.0KB/s   --:-- ETAresults.txt                                   100%   44KB  43.6KB/s   00:00    
+
+results.txt                                     0%    0     0.0KB/s   --:-- ETA
+results.txt                                   100%   44KB  43.6KB/s   00:00    
 sftp> ls
 examples.desktop    hh.txt              results.txt         
 sftp> get hh.txt
 Fetching /home/cs17d27/hh.txt to hh.txt
-/home/cs17d27/hh.txt                            0%    0     0.0KB/s   --:-- ETA/home/cs17d27/hh.txt                          100%   44KB  43.6KB/s   00:00    
+
+/home/cs17d27/hh.txt                            0%    0     0.0KB/s   --:-- ETA
+/home/cs17d27/hh.txt                          100%   44KB  43.6KB/s   00:00    
 sftp> pwd
 Remote working directory: /home/cs17d27
 sftp> lpwd
@@ -72,7 +80,9 @@ sftp> ls
 examples.desktop    result1.txt         results.txt         
 sftp> get result1.txt
 Fetching /home/cs17d27/result1.txt to result1.txt
-/home/cs17d27/result1.txt                       0%    0     0.0KB/s   --:-- ETA/home/cs17d27/result1.txt                     100%   44KB  43.6KB/s   00:00    
+
+/home/cs17d27/result1.txt                       0%    0     0.0KB/s   --:-- ETA
+/home/cs17d27/result1.txt                     100%   44KB  43.6KB/s   00:00    
 sftp> lls
 cccgpa.txt	     cgpa.txt	hh.txt	      reg.txt~	   stp.txt
 ccgpa.txt	     comp1.txt	newfile.txt   result1.txt  Untitled Document
