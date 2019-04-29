@@ -8,9 +8,33 @@ sudo: systemcl: command not found
 E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
 E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ apt-get install systemcl[1@s[1@u[1@d[1@o[1@ 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 1%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 E: Unable to locate package systemcl
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo apt-get install systemcl[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemcl start vsftpd[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@t
 Failed to issue method call: Access denied
@@ -20,9 +44,31 @@ ln -s '/etc/systemd/system/vsftpd.service' '/etc/systemd/system/multi-user.targe
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ service vsftpd start
 start: Unknown job: vsftpd
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo apt-get install sysVInit
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 Package sysvinit is not available, but is referred to by another package.
 This may mean that the package is missing, has been obsoleted, or
 is only available from another source
@@ -31,9 +77,31 @@ However the following packages replace it:
 
 E: Package 'sysvinit' has no installation candidate
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo apt-get install sysVInit[K[K[K[K[Kvinit-utils
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 sysvinit-utils is already the newest version.
 The following packages were automatically installed and are no longer required:
   account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libqpdf13
@@ -44,9 +112,31 @@ Use 'apt-get autoremove' to remove them.
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo apt-get install sysvinit-utilsu sysvinit-utilsp sysvinit-utilss sysvinit-utilst sysvinit-utilsa sysvinit-utilsr sysvinit-utilst sysvinit-utils[C sysvinit-utils
 E: Invalid operation installupstart
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo apt-get installupstart  sysvinit-utils[1@ 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 sysvinit-utils is already the newest version.
 upstart is already the newest version.
 The following packages were automatically installed and are no longer required:
@@ -66,7 +156,8 @@ Rules updated
 Rules updated (v6)
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ufw status
 Status: inactive
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.ori g
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.ori 
+g
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo vi /etc/vsftpd.conf
 [?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/vsftpd.conf" 150L, 5655C[>c[1;1H[34m# Example config file /etc/vsftpd.conf
 #
@@ -698,12 +789,14 @@ anonymous_enable=YES[24;63H1,1[11CTop[1;1H[?12l[?25hP+q436f\P+q6b75\P+
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ systemctl restart vsftpd
 Failed to issue method call: Access denied
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo systemctl restart vsftpd
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo userad [Kd -m -c " jathin, destructor" -s / bin/bash jathin
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo userad [Kd -m -c " jathin, destructor" -s / 
+bin/bash jathin
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo passwd jathin
 Enter new UNIX password: 
 Retype new UNIX password: 
 passwd: password updated successfully
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ echo "jathibn[K[Kn" \[K| sudo tee -a /etc/vsftpd.userl ist
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ echo "jathibn[K[Kn" \[K| sudo tee -a /etc/vsftpd.userl 
+ist
 jathin
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ v[Kcat /etc/vsftpd.userlist
 jathin
