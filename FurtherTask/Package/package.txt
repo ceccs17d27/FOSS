@@ -1,23 +1,109 @@
 Script started on Thursday 25 April 2019 04:10:40 PM IST
 ]0;ceclab@ceclab-Veriton-Series: ~[01;32mceclab@ceclab-Veriton-Series[00m:[01;34m~[00m$ apt [1@s[1@u[1@d[1@o[1@ [C[C[C[C[K upgrade
 [sudo] password for ceclab: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 3%Reading state information... Done
-Calculating upgrade... 0%Calculating upgrade... 10%Calculating upgrade... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 3%
+
+Reading state information... Done
+
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 10%
+
+Calculating upgrade... Done
+
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 ]0;ceclab@ceclab-Veriton-Series: ~[01;32mceclab@ceclab-Veriton-Series[00m:[01;34m~[00m$ sudo apt upgrade[K[K[K[K[Kdate
-[33m0% [Working][0m            Err:1 http://security.ubuntu.com/ubuntu xenial-security InRelease
+[33m
+0% [Working][0m
+            
+Err:1 http://security.ubuntu.com/ubuntu xenial-security InRelease
   Temporary failure resolving 'security.ubuntu.com'
-[33m0% [Connecting to in.archive.ubuntu.com][0m                                        Err:2 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+[33m
+0% [Connecting to in.archive.ubuntu.com][0m
+                                        
+Err:2 http://in.archive.ubuntu.com/ubuntu xenial InRelease
   Temporary failure resolving 'in.archive.ubuntu.com'
-[33m                                        0% [Working][0m            Err:3 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+[33m
+                                        
+0% [Working][0m
+            
+Err:3 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
   Temporary failure resolving 'in.archive.ubuntu.com'
-[33m0% [Working][0m            Err:4 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+[33m
+0% [Working][0m
+            
+Err:4 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
   Temporary failure resolving 'in.archive.ubuntu.com'
-[33m0% [Working][0m            Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 35%Reading package lists... 35%Reading package lists... 67%Reading package lists... 67%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 3%Reading state information... Done
+[33m
+0% [Working][0m
+            
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 35%
+
+Reading package lists... 35%
+
+Reading package lists... 67%
+
+Reading package lists... 67%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 1%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 3%
+
+Reading state information... Done
+
 All packages are up to date.
 W: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/xenial/InRelease  Temporary failure resolving 'in.archive.ubuntu.com'
 W: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/xenial-updates/InRelease  Temporary failure resolving 'in.archive.ubuntu.com'
@@ -25,15 +111,59 @@ W: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/xenial-backports/In
 W: Failed to fetch http://security.ubuntu.com/ubuntu/dists/xenial-security/InRelease  Temporary failure resolving 'security.ubuntu.com'
 W: Some index files failed to download. They have been ignored, or old ones used instead.
 ]0;ceclab@ceclab-Veriton-Series: ~[01;32mceclab@ceclab-Veriton-Series[00m:[01;34m~[00m$ sudo apt search [1Pupdategradeexit[Ksudo apt-get install nginx[11Pcript http.txtperl.txtexit[Ksudo apt-get install nginxexit[Kperl sum.perlhello.perl-v[Ksudo apt install perlgedit /home/ceclab/index.html[13Papt install perl[14Pperl -vhello.perl[2Psum.perlexit[Ksudo apt-get install nginxexit[Kscript perl.txthttp.txtudo apt-get install nginxexit[Ksudo apt upgrade[1Pdatesearch vlc
-Sorting... 0%Sorting... 0%Sorting... 3%Sorting... Done
-Full Text Search... 50%Full Text Search... 50%Full Text Search... Done
+
+Sorting... 0%
+
+Sorting... 0%
+
+Sorting... 3%
+
+Sorting... Done
+
+
+Full Text Search... 50%
+
+Full Text Search... 50%
+
+Full Text Search... Done
+
 ]0;ceclab@ceclab-Veriton-Series: ~[01;32mceclab@ceclab-Veriton-Series[00m:[01;34m~[00m$ sudo apt search vlc[K[K[K[K[K[K[K[K[K[Kinstall vlc
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 3%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 3%
+
+Reading state information... Done
+
 E: Unable to locate package vlc
 ]0;ceclab@ceclab-Veriton-Series: ~[01;32mceclab@ceclab-Veriton-Series[00m:[01;34m~[00m$ sudo apt list --oll[K[K[Kall-[K-versions
-Listing... 0%Listing... 0%Listing... 7%Listing... Done
+
+Listing... 0%
+
+Listing... 0%
+
+Listing... 7%
+
+Listing... Done
+
 [32ma11y-profile-manager-indicator[0m/now 0.1.10-0ubuntu3 amd64 [installed,local]
 
 [32maccount-plugin-facebook[0m/now 0.12+16.04.20160126-0ubuntu1 all [installed,local]
